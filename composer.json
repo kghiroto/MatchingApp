@@ -9,6 +9,8 @@
     "license": "MIT",
     "require": {
         "php": "^7.2.5",
+        "ext-intl": "*",
+        "doctrine/dbal": "~2.3",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^1.0",
         "guzzlehttp/guzzle": "^6.3",
@@ -16,8 +18,7 @@
         "laravel/tinker": "^2.0",
         "laravel/ui": "^2.0",
         "nesbot/carbon": "^2.35",
-        "tcg/voyager": "^1.4",
-        "doctrine/dbal": "~2.3"
+        "tcg/voyager": "^1.4"
     },
     "require-dev": {
         "facade/ignition": "^2.0",
